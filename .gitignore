@@ -1,1 +1,6 @@
+rgbify
 src
+01_calc/*
+02_merge/*
+03_projected/*
+tile/*

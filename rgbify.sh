@@ -1,0 +1,1 @@
+for f in 03_projected/*.tif; do rasterio rgbify -b -10000 -i 0.1 --max-z 8 --min-z 2 --format webp 03_projected/`basename ${f}` tile/`basename ${f} .tif`.mbtiles; done

@@ -1,0 +1,1 @@
+for f in 02_merge/*.tif; do gdalwarp -s_srs EPSG:4326 -t_srs EPSG:3857 -r near -tr 350 350 02_merge/`basename ${f}` 03_projected/`basename ${f}`; done

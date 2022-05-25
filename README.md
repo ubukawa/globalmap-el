@@ -6,5 +6,11 @@ Global Map Elevation - version 2
 https://github.com/globalmaps/gm_el_v2_west  
 https://github.com/globalmaps/gm_el_v2_east  
 
-# gdal
-https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal
+# unvt/rgbify
+git clone https://github.com/unvt/rgbify
+cd rgbify
+docker build -t unvt/rgbify .
+cd ..
+
+docker run -it --rm -v ${PWD}:/data unvt/rgbify
+cd /data

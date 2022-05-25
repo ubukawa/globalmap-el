@@ -1,0 +1,17 @@
+
+
+ for f in src/*.tif; do gdal_calc.py -A src/`basename ${f}` --outfile 01_calc/`basename ${f}` --calc="A*(A!=-9999)*(A!=9998)"; done
+
+
+---
+
+<warp>
+gdalwarp -s_srs EPSG:4326 -t_srs EPSG:3857 -dstnodata None -r near src/gm_el_v2_01_01.tif
+
+
+<calc>
+option1
+gdal_calc.py -A src/gm_el_v2_01_01.tif --outfile calc-test2.tif --calc="A*(A!=-9999)*(A!=9998)"
+
+option2
+gdal_calc.py -A src/gm_el_v2_01_01.tif --outfile calc-test5.tif --calc="where(A==-9999,nodatavalue,A)"

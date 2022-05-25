@@ -1,0 +1,8 @@
+gdal_merge.py -o 02_merge/merge01.tif 01_calc/gm_el_v2_01_01.tif 01_calc/gm_el_v2_01_02.tif 01_calc/gm_el_v2_01_03.tif 01_calc/gm_el_v2_02_01.tif 01_calc/gm_el_v2_02_02.tif 01_calc/gm_el_v2_02_03.tif;
+gdal_merge.py -o 02_merge/merge02.tif 01_calc/gm_el_v2_03_01.tif 01_calc/gm_el_v2_03_02.tif 01_calc/gm_el_v2_03_03.tif 01_calc/gm_el_v2_04_01.tif 01_calc/gm_el_v2_04_02.tif 01_calc/gm_el_v2_04_03.tif;
+gdal_merge.py -o 02_merge/merge03.tif 01_calc/gm_el_v2_01_04.tif 01_calc/gm_el_v2_01_05.tif 01_calc/gm_el_v2_01_06.tif 01_calc/gm_el_v2_02_04.tif 01_calc/gm_el_v2_02_05.tif 01_calc/gm_el_v2_02_06.tif;
+gdal_merge.py -o 02_merge/merge04.tif 01_calc/gm_el_v2_03_04.tif 01_calc/gm_el_v2_03_05.tif 01_calc/gm_el_v2_03_06.tif 01_calc/gm_el_v2_04_04.tif 01_calc/gm_el_v2_04_05.tif 01_calc/gm_el_v2_04_06.tif;
+gdal_merge.py -o 02_merge/merge05.tif 01_calc/gm_el_v2_01_07.tif 01_calc/gm_el_v2_01_08.tif 01_calc/gm_el_v2_01_09.tif 01_calc/gm_el_v2_02_07.tif 01_calc/gm_el_v2_02_08.tif 01_calc/gm_el_v2_02_09.tif;
+gdal_merge.py -o 02_merge/merge06.tif 01_calc/gm_el_v2_03_07.tif 01_calc/gm_el_v2_03_08.tif 01_calc/gm_el_v2_03_09.tif 01_calc/gm_el_v2_04_07.tif 01_calc/gm_el_v2_04_08.tif 01_calc/gm_el_v2_04_09.tif;
+gdal_merge.py -o 02_merge/merge07.tif 01_calc/gm_el_v2_01_10.tif 01_calc/gm_el_v2_01_11.tif 01_calc/gm_el_v2_01_12.tif 01_calc/gm_el_v2_02_10.tif 01_calc/gm_el_v2_02_11.tif 01_calc/gm_el_v2_02_12.tif;
+gdal_merge.py -o 02_merge/merge08.tif 01_calc/gm_el_v2_03_10.tif 01_calc/gm_el_v2_03_11.tif 01_calc/gm_el_v2_03_12.tif 01_calc/gm_el_v2_04_10.tif 01_calc/gm_el_v2_04_11.tif 01_calc/gm_el_v2_04_12.tif;
