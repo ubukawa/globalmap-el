@@ -4,3 +4,6 @@ src
 02_merge/*
 03_projected/*
 tile/*
+zxy/*
+mbutil/*
+docs/rgb-el_2-7/8/*
