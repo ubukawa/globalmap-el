@@ -5,7 +5,6 @@
       "ne-test": {
         "type": "vector",
         "tiles": ["https://ubukawa.github.io/vt-test/ne-test/{z}/{x}/{y}.pbf"],
-        "attribution": "NaturalEarth",
         "minzoom": 0,
         "maxzoom": 5
       },
@@ -13,17 +12,13 @@
         "type": "raster-dem",
         "tiles": ["https://ubukawa.github.io/globalmap-el/rgb-el_2-7/{z}/{x}/{y}.png"],
         "attribution": "Global Map Global Elevation v2",
-        "tileSize": 256,
-        "minzoom": 2,
-        "maxzoom": 7
+        "tileSize": 256
       },
       "hillshadeSource": {
         "type": "raster-dem",
         "tiles": ["https://ubukawa.github.io/globalmap-el/rgb-el_2-7/{z}/{x}/{y}.png"],
         "attribution": "Global Map Global Elevation v2",
-        "tileSize": 256,
-        "minzoom": 2,
-        "maxzoom": 7
+        "tileSize": 256
       }
     },
     "sprite": "https://ubukawa.github.io/vt-test/sprite/sprite",
@@ -57,6 +52,14 @@
         "source-layer": "coastl",
         "maxzoom": 8,
         "paint": {"line-color": "rgba(58, 0, 160, 1)"}
+      },
+      {
+        "id": "bndl",
+        "type": "line",
+        "source": "ne-test",
+        "source-layer": "bndl",
+        "maxzoom": 8,
+        "paint": {"line-color": "rgba(138, 138, 138, 1)"}
       },
       {
         "id": "popp",
